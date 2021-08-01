@@ -1,0 +1,10 @@
+db.users.insertMany([
+{ "_id" : ObjectId("6102afa7d3bf961a28a4a615"), "rooms" : [ ], "persons" : [ ], "name" : "Test1", "email" : "T1@t.com", "salt" : "301870d7-2717-40c6-9c5e-c72df4a347f3", "encrypt_password" : "b99c0cdbe6f439d4aed059636979d2b8069a85940876b7776fa8bc3faa5735c9"},
+{ "_id" : ObjectId("6102b022d3bf961a28a4a617"), "rooms" : [ ], "persons" : [ ], "name" : "Test2", "email" : "test2@t.com", "salt" : "dfe0ddf0-5fdb-4434-8576-4254a157f4b5", "encrypt_password" : "c7c93f3154d5f9ec998edf39064f6f938ec2cf043d6c390be1682d71b0110843"},
+{ "_id" : ObjectId("6102b048d3bf961a28a4a619"), "rooms" : [ ], "persons" : [ ], "name" : "Test3", "email" : "test3@t.com", "salt" : "3777ed37-b935-473a-8bae-c5f4824c3a57", "encrypt_password" : "292671b16caf38cc867cc068d704f569662ef2fb52b52e3eda30673eaf6ea7c8"},
+{ "_id" : ObjectId("6102b083d3bf961a28a4a61b"), "rooms" : [ ], "persons" : [ ], "name" : "Test5", "email" : "test5@t.com", "salt" : "fb284644-f80f-4e7d-a015-6429119bedc8", "encrypt_password" : "4fde4c304b2b112734d1a62702e2f5e5feb818c0b6d8e23ca6ab888d1f738c07"},
+{ "_id" : ObjectId("6102b109d3bf961a28a4a61d"), "rooms" : [ ], "persons" : [ ], "name" : "Test5", "email" : "test5@t.com", "salt" : "5510b705-dfd9-4630-95f4-da11bc8bae73", "encrypt_password" : "9c8c9993448be42dc75c0b8a3848b28ca4062745feced3ef5a71e1caaea2e1b9"},
+{ "_id" : ObjectId("6102c5e1d7a87a21d8d56c6d"), "rooms" : [ ], "persons" : [ ], "name" : "Test6", "email" : "test6@t.com", "salt" : "17dbd744-501a-430c-bf06-d6456dc95e90", "encrypt_password" : "1562314cbeb6d9e8c2c71685329be23806e55f04114b9dd66df35e2fd0c3eaaf"}
+    ])
+{ "_id" : ObjectId("6102b6f0d3bf961a28a4a61f"), "rooms" : [ ], "persons" : [ ], "name" : "Pranav", "email" : "dude@jack.com", "salt" : "be1ff73b-6057-4dd3-b021-fa79f0fbdd89", "encrypt_password" : "c177adcd61b95f7cbaa956dc75222982e9769d37fa2a4c0a0039b8e640f7f7c8"}
+])
